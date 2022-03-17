@@ -4,7 +4,7 @@
 
   tasks:
   - name: Installation du serveur web nginx
-     yum:
+    yum:
       name: epel-release
       state: present
 
